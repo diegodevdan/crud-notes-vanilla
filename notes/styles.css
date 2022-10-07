@@ -1,0 +1,58 @@
+h1{
+    background-color: darkslategray;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 3px;
+}
+
+#cont-notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont-notes > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumseagreen;
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+#cont-notes div > p{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+#cont-notes > table {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+#cont-notes table {
+    width: 600px;
+    padding: 0;
+}
+
+#cont-notes table tr > th{
+    background-color: gray;
+    padding: 5px;
+}
+
+#cont-notes table tr > td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+#cont-notes table tr > td:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

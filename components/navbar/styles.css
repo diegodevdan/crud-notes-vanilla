@@ -1,0 +1,55 @@
+.navbar{
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.navbar > div{
+
+}
+
+
+a{
+    text-decoration: none;
+    text-underline: none;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: darkslategray;
+    padding-left: 10px;
+    transition: all ease-in-out .25s;
+    border: 2px solid;
+    border-color: transparent transparent transparent darkslategray;
+}
+
+@keyframes rotate {
+
+    0% {
+        border-color: transparent transparent transparent darkslategray;
+        transition: all ease-in-out .25s;
+    }
+
+    25% {
+        border-color: darkslategray transparent transparent transparent;
+    }
+
+    50% {
+        border-color: transparent darkslategray transparent transparent;
+    }
+
+    85% {
+        border-color: transparent transparent darkslategray transparent;
+        transition: all ease-in-out .25s;
+    }
+
+}
+
+a:hover{
+    opacity: .8;
+    background-color: rgba(211, 211, 211, 0.11);
+    animation: rotate 4s linear infinite;
+}
